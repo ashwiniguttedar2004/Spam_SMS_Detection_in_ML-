@@ -1,0 +1,33 @@
+# Data handling	
+import pandas as pd  #Load and manipulate the dataset
+# Numerical ops	
+import numpy  #Efficient arrays and sorting
+#Text preprocessing	
+import re
+import string	#Regular expressions and punctuation handling
+# ML models
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC	 
+# ML tools	
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.metrics import (
+    accuracy_score, precision_score, recall_score, f1_score,
+    confusion_matrix, classification_report, roc_auc_score, roc_curve
+)
+# Text vectorization	
+from sklearn.feature_extraction.text import TfidfVectorizer  #Convert text to numerical format
+# NLP	
+import nltk
+from nltk.corpus import stopwords
+# Visualization	
+import matplotlib.pyplot as plt
+import seaborn as sns 
+from wordcloud import WordCloud   #For EDA, word clouds, and plots
+#Model saving	
+import joblib	#Save and load models and pipelines
+Web app 
+import streamlit as st  #UI for spam detection app
+ 
+ 
